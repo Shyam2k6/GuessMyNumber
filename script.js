@@ -36,7 +36,7 @@ const checkGuess = function () {
 
 check.addEventListener("click", checkGuess);
 again.addEventListener("click", function () {
-  score = 100;
+  score = 20;
   secretNumber = Math.trunc(Math.random() * 100) + 1;
   guess.textContent = secretNumber;
   document.querySelector(".container").style.backgroundColor = "#312f2f";
