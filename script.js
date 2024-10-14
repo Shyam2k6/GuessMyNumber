@@ -5,7 +5,7 @@ let message = document.querySelector(".message");
 const check = document.querySelector(".check");
 const again = document.querySelector(".again");
 const highScore = document.querySelector(".highscore");
-let score = 100;
+let score = 20;
 let highscore = 0;
 
 const checkGuess = function () {
