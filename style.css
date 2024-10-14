@@ -22,11 +22,12 @@ header {
   margin-bottom: 30px;
 }
 p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 header .again {
   padding: 8px 24px;
+  margin-right: 45px;
   font-size: 24px;
   color: #312f2f;
   font-weight: bold;
@@ -40,6 +41,7 @@ header .again {
 }
 .guessMyNumber h1 {
   font-size: 50px;
+  text-align: center;
 }
 .guess {
   width: 160px;
